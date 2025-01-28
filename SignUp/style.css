@@ -1,0 +1,17 @@
+.mycard{
+    width: 27%;
+    position: absolute;
+    top: 40%;
+    left: 35.6%;
+}
+
+.loginimg{
+    width: 82%;
+}
+.signup{
+    background-color: #4d4dff;
+}
+.signup:hover{
+    background-color: rgb(69, 63, 63);
+    color: white;
+}
