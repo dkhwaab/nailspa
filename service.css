@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lato:wght@400;700&family=Montserrat:wght@900&family=Orbitron&family=Playball&family=Poppins:wght@800&family=Tangerine:wght@700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lato:wght@400;700&family=Montserrat:wght@900&family=Orbitron&family=Playball&family=Poiret+One&family=Poppins:wght@800&family=Tangerine:wght@700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lato:wght@400;700&family=Montserrat:wght@900&family=Nova+Square&family=Orbitron&family=Playball&family=Poiret+One&family=Poppins:wght@800&family=Tangerine:wght@700&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Lato:wght@400;700&family=Montserrat:wght@900&family=Nova+Square&family=Orbitron&family=Playball&family=Poiret+One&family=Poppins:wght@200;300;800&family=Tangerine:wght@700&family=Ubuntu:wght@500&display=swap');
+
+
+body{
+    background-color: #f0ad736b;
+}
+body{margin-top:20px;}
+  .price-innerdetail h5 {
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+    
+    .price-innerdetail p {
+        font-size: 50px;
+    }
+    
+    .detail-pricing {
+        border-bottom: 1px solid;
+        padding: 30px 0 30px 0;
+    }
+    
+    .detail-pricing .float-left {
+        padding: 0 0 0 40px;
+    }
+    
+    .detail-pricing .float-left i {
+        position: absolute;
+        left: 0;
+        font-size: 20px;
+    }
+    
+    .detail-pricing span {
+        display: inline-block;
+        position: relative;
+        font-weight: 400;
+    }
+    
+    .wrap-price {
+        background: #fabc86;
+        padding: 50px 20px 50px;
+        border-radius: 10px;
+    }
+    
+    .center-wrap {
+        background: #070707;
+        color: #fabc86;
+    }
+
+/* .my-btn{
+    background-color: #f97706;
+    border: 0;
+    border-radius: 10px 100px / 120px !important;
+}
+.my-btn:hover{
+    background-color:#d17322 ;
+} */
+
+.my-button {
+    border-radius: 10px 100px / 120px !important;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #f97706;;
+    background-color: white;
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+
+  }
+  
+  .my-button:hover {
+    color: white !important;;
+    transform: scale(1.1);
+    box-shadow: 4px 5px 17px -4px #d17322;
+  }
+  
+  .my-button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #f97706;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .my-button:hover::before {
+    width: 250%;
+  }
+
+.wrap-price{
+    border-radius: 10px 100px / 120px;
+}
+.my-font{
+    font-family: 'Poppins', sans-serif;
+}
